@@ -1,0 +1,15 @@
+.form {
+  max-width: 450px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.form input::placeholder {
+  color: #888;
+  font-style: italic;
+  opacity: 1;
+  font-size: 0.98em;
+  letter-spacing: 0.5px;
+}
